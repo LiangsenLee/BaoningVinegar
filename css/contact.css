@@ -1,0 +1,54 @@
+.icon {
+  width: 12px;
+  height: 12px;
+  border-right: #ffffff solid 2px;
+  border-bottom: #ffffff solid 2px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.title {
+  text-align: center;
+  font-size: 5.3333vw;
+  color: #fff;
+  margin-top: 10vw;
+}
+.select {
+  border: 1px solid #fff;
+  height: 11.3333vw;
+  width: 83.7333vw;
+  margin: 8vw auto;
+  margin-bottom: 14vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5.0667vw;
+  color: #fff;
+}
+.phone,
+.address {
+  color: #fff;
+  font-size: 4.5333vw;
+  margin-bottom: 10vw;
+  margin-left: 20vw;
+}
+.phone li,
+.address li {
+  margin-top: 4.5333vw;
+}
+.apps {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20.8vw;
+}
+.apps div {
+  width: 11.7333vw;
+  height: 11.7333vw;
+  background-color: #c7c7c7;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apps div span {
+  font-size: 9vw;
+  color: #3b363d;
+}
