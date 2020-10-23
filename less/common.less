@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #3b363d;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul li {
+    list-style: none;
+}
+.nav {
+    // 导航
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 105.3333vw;
+    background-color: #3b363d;
+    color: #fff;
+    .close {
+        margin-left: 8vw;
+        margin-top: 3vw;
+        font-size: 30px;
+    }
+    ul {
+        padding: 0 10.6667vw;
+        li {
+            border-bottom: 1px solid #fff;
+            padding: 10px 0;
+            text-align: center;
+            list-style: none;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.header {
+    //头部
+    display: flex;
+    align-items: center;
+    height: 9.3333vw;
+    width: 100%;
+    .btn {
+        width: 6.6667vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 12vw;
+        margin-top: 1.3333vw;
+        span {
+            height: 2px;
+            width: 6.6667vw;
+            background-color: #fff;
+            margin-bottom: 1.3333vw;
+            border-radius: 2px;
+        }
+    }
+    .logo {
+        margin-left: 2.6vw;
+        margin-top: 1.3333vw;
+
+        img {
+            width: 10.6667vw;
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 8vw 22.2667vw;
+    background-color: #282629;
+    ul {
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 3.2vw;
+            }
+        }
+    }
+}
+
+//标题
+.about-title {
+    display: flex;
+    height: 10.6667vw;
+    font-size: 16px;
+    line-height: 10.6667vw;
+    text-align: center;
+    color: #d3635e;
+}
+.left-line {
+    margin-left: 8.6667vw;
+}
+.left-line,
+.right-line {
+    display: flex;
+    align-items: center;
+    width: 18.6667vw;
+    .line {
+        width: 14.6667vw;
+        background-color: #d3635e;
+        height: 1px;
+    }
+    .circle {
+        width: 1.8vw;
+        height: 1.8vw;
+        border-radius: 50%;
+        background-color: #d3635e;
+    }
+    .circle-big {
+        margin: 0 10px 0 5px;
+        width: 2.1vw;
+        height: 2.1vw;
+        border-radius: 50%;
+        background-color: #d3635e;
+    }
+}
+//标题end
+//了解更多
+.learn-more {
+    display: flex;
+    justify-content: center;
+    font-size: 3.2vw;
+    margin-top: 1.3333vw;
+    a {
+        display: block;
+        padding: 0.6667vw;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        width: 4em;
+    }
+}
+//了解更多end

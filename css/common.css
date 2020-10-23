@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #3b363d;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul li {
+  list-style: none;
+}
+.nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 105.3333vw;
+  background-color: #3b363d;
+  color: #fff;
+}
+.nav .close {
+  margin-left: 8vw;
+  margin-top: 3vw;
+  font-size: 30px;
+}
+.nav ul {
+  padding: 0 10.6667vw;
+}
+.nav ul li {
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+  text-align: center;
+  list-style: none;
+}
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 9.3333vw;
+  width: 100%;
+}
+.header .btn {
+  width: 6.6667vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12vw;
+  margin-top: 1.3333vw;
+}
+.header .btn span {
+  height: 2px;
+  width: 6.6667vw;
+  background-color: #fff;
+  margin-bottom: 1.3333vw;
+  border-radius: 2px;
+}
+.header .logo {
+  margin-left: 2.6vw;
+  margin-top: 1.3333vw;
+}
+.header .logo img {
+  width: 10.6667vw;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 8vw 22.2667vw;
+  background-color: #282629;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3.2vw;
+}
+.about-title {
+  display: flex;
+  height: 10.6667vw;
+  font-size: 16px;
+  line-height: 10.6667vw;
+  text-align: center;
+  color: #d3635e;
+}
+.left-line {
+  margin-left: 8.6667vw;
+}
+.left-line,
+.right-line {
+  display: flex;
+  align-items: center;
+  width: 18.6667vw;
+}
+.left-line .line,
+.right-line .line {
+  width: 14.6667vw;
+  background-color: #d3635e;
+  height: 1px;
+}
+.left-line .circle,
+.right-line .circle {
+  width: 1.8vw;
+  height: 1.8vw;
+  border-radius: 50%;
+  background-color: #d3635e;
+}
+.left-line .circle-big,
+.right-line .circle-big {
+  margin: 0 10px 0 5px;
+  width: 2.1vw;
+  height: 2.1vw;
+  border-radius: 50%;
+  background-color: #d3635e;
+}
+.learn-more {
+  display: flex;
+  justify-content: center;
+  font-size: 3.2vw;
+  margin-top: 1.3333vw;
+}
+.learn-more a {
+  display: block;
+  padding: 0.6667vw;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  width: 4em;
+}

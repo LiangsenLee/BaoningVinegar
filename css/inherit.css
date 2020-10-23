@@ -1,0 +1,14 @@
+.first-img img {
+  width: 100vw;
+  height: 57.3333vw;
+}
+.sec-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.6667vw;
+}
+.sec-img img {
+  width: 97.7333vw;
+  height: 64.2667vw;
+}
