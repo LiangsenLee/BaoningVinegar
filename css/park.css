@@ -1,0 +1,129 @@
+.banner {
+  width: 100vw;
+  height: 37.3333vw;
+  padding: 2vw 0;
+}
+.banner img {
+  width: 100vw;
+}
+.banner p {
+  color: #fff;
+  padding: 0 10.6667vw;
+  font-size: 3.2vw;
+  margin-top: 2.6667vw;
+}
+.right-line .circle-big {
+  margin: 0 5px 0 10px !important;
+}
+.sec-pic-box {
+  margin-top: 13.3333vw;
+  padding: 0 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-pic-box .about-title {
+  padding: 4vw 0;
+  margin-left: -10.6667vw;
+}
+.sec-pic-box .about-title .mid {
+  display: flex;
+  flex-direction: column;
+}
+.sec-pic-box .about-title .mid div {
+  height: 5.3333vw;
+  margin-top: -1.3333vw;
+  margin-bottom: 5px;
+}
+.sec-pic-box .pic {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-pic-box .pic img {
+  width: 29.7333vw;
+  height: 20.4vw;
+}
+.sec-pic-box .pic img:not(:first-child) {
+  padding-left: 2vw;
+}
+.sec-pic-box p {
+  color: #fff;
+  font-size: 3.2vw;
+  padding: 6.6667vw;
+}
+.festival {
+  padding: 0 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.festival .about-title {
+  margin-left: -10.6667vw;
+}
+.festival .pic-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.festival .pic-box img {
+  width: 45.3333vw;
+  height: 33.6vw;
+  margin-bottom: 2.6667vw;
+}
+.festival p {
+  color: #fff;
+  font-size: 3.2vw;
+  padding: 0 6.6667vw;
+}
+.ar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5.3333vw;
+}
+.ar img {
+  width: 93.3333vw;
+  height: 32vw;
+  margin-top: 5.6vw;
+}
+.hotel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hotel .about-title {
+  margin-left: -10.6667vw;
+}
+.hotel .pic img {
+  width: 92.5333vw;
+  height: 45.0667vw;
+}
+.hotel p {
+  font-size: 3.2vw;
+  color: #fff;
+  padding: 3vw 10vw;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot .about-title {
+  margin-left: -10.6667vw;
+}
+.foot ul {
+  margin-top: 4vw;
+  color: #fff;
+  font-size: 3.2vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10.4vw;
+  margin-bottom: 2.6667vw;
+}
+.foot ul li {
+  margin-bottom: 4vw;
+}
+.foot ul li:nth-child(2) {
+  padding-right: 4vw;
+}
